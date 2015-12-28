@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Here we are going to declare menu for our navigation drawer, each item is tagged as items
+if we would like to have some groups we would have to close them in multiple groups -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_features"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_gray_24dp"
+            android:title="@string/drawer_home"/>
+
+        <item
+            android:id="@+id/action_stocks"
+            android:checked="true"
+            android:icon="@drawable/ic_favorite_gray_24dp"
+            android:title="@string/drawer_likes"/>
+
+        <item
+            android:id="@+id/action_preferences"
+            android:checked="true"
+            android:icon="@drawable/ic_settings_gray_24dp"
+            android:title="@string/drawer_preferences"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+        <!-- checkablebehavior will have to change, these items are not meant to be checked -->
+
+        <item
+            android:id="@+id/action_help"
+            android:checked="true"
+            android:icon="@drawable/ic_help_gray_24dp"
+            android:title="@string/drawer_help"/>
+
+        <item
+            android:id="@+id/action_logout"
+            android:checked="true"
+            android:icon="@drawable/ic_block_gray_24dp"
+            android:title="@string/drawer_logout"/>
+
+    </group>
+
+</menu>

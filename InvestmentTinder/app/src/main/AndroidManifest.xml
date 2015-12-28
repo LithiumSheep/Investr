@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group15.oose.investmenttinder" >
+
+    <!-- Needed for picasso to load images from urls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".view.MainActivity"
+            android:launchMode="singleTop"> <!-- Setting launch mode to only single instance -->
+            <intent-filter>
+                <!-- Define intent filter for our fragments that are going to be handled from MainActivity-->
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- We have to declare every activity inside and set intent filter if we launch them with Intent -->
+        <activity android:name=".view.company_details.CompanyDetailsActivity">
+            <intent-filter>
+                <action android:name="group15.oose.investmenttinder.DETAILS_ACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.Dashboard"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="group15.oose.investmenttinder.HOME_ACTION" />
+                <action android:name="group15.oose.investmenttinder.STOCKS_ACTION" />
+                <action android:name="group15.oose.investmenttinder.PREFERENCES_ACTION" />
+                <action android:name="group15.oose.investmenttinder.PROFILE_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

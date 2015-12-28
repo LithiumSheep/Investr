@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ffff0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background_light_blue">#9fe7ff</color>
+    <color name="PrimaryDark">#0288D1</color>
+    <color name="PrimaryLight">#03A9F4</color>
+    <color name="grey">#7e7e7e</color>
+
+    <!-- dashboard -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
+

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Investr</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login_title">Login</string>
+    <string name="loginFrag_email">email address</string>
+    <string name="loginFrag_pass">password</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="signupFrag_email">email address</string>
+    <string name="signupFrag_pass">password</string>
+    <string name="signupFrag_confirm">confirm password</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <!-- Navigation drawer string resources-->
+    <string name="drawer_profile">My profile</string>
+    <string name="drawer_home">Home</string>
+    <string name="drawer_likes">My Likes</string>
+    <string name="drawer_preferences">Preferences</string>
+    <string name="drawer_help">Help</string>
+    <string name="drawer_logout">Log out</string>
+
+    <!-- Some hints to drawer state - open/close-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_closed">Closed</string>
+
+    <!-- Tinder swipe trigger button labels -->
+    <string name="button_dismiss">no</string>
+    <string name="button_accept">yes</string>
+
+    <!-- Errors -->
+    <string name="error_api_issue">Something went wrong. Please try again later.</string>
+    <string name="password_do_not_match">Password do not match</string>
+
+    <!-- User preferences fragment -->
+    <string name="capital_label">Capital</string>
+    <string name="growth_label">Growth</string>
+    <string name="income_label">Income</string>
+    <string name="deferral_label">Deferral</string>
+    <string name="speculation_label">Speculation</string>
+    <string name="horizon_label">Horizon</string>
+    <string name="risktol_label">RiskTol</string>
+    <string name="liq_label">Liq</string>
+    <string name="dep_label">Dep</string>
+    <string name="tax_bracket_label">Tax bracket</string>
+    <string name="save">Save</string>
+    <string name="profile_has_been_updated">Profile has been successfully updated</string>
+
+    <string name="user_name">Username</string>
+
+    <plurals
+        name="items">
+        <item quantity="zero">Items: </item>
+        <item quantity="one">Item: </item>
+        <item quantity="other">Items: </item>
+    </plurals>
+</resources>

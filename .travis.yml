@@ -1,0 +1,8 @@
+language: java
+
+script:
+  cd invest
+  mvn test
+  cd ..
+  cd InvestmentTinder
+  gradle dist test

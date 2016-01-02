@@ -1,6 +1,3 @@
-# 2015-group-15
-Repository for Group-15
-
 Back-end code is in the 'invest' folder. Front-end code is in 'InvestmentTinder' folder.
 
 HOW TO RUN BACK-END
